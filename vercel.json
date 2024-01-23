@@ -2,9 +2,9 @@
     "version":2,
     "name":"upsellz",
     "builds":[
-        {"src":"App.js","use":"@vercel/node"}
+        {"src":"app.js","use":"@vercel/node"}
     ],
     "routes":[
-        {"src":"/(.*)","dest":"/App.js"}
+        {"src":"/(.*)","dest":"/app.js"}
     ]
 }
